@@ -1,0 +1,19 @@
+Study:
+
+First read and watch the content below.  Find other videos or blogs you like and share it with the team:
+https://www.freecodecamp.org/news/learn-css-grid-by-building-5-layouts/
+https://css-tricks.com/quick-whats-the-difference-between-flexbox-and-grid/
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+https://css-tricks.com/snippets/css/complete-guide-grid/
+https://youtu.be/dQHtT47eH0M?si=DLWoErp95tLHoclB
+https://youtu.be/lZ2JX_6SGNI?si=DITjoPN0PkpnY6qp
+https://youtu.be/_sgF8I-Q1Gs?si=nOcOZosc8eD4lPTL
+https://youtu.be/0Gr1XSyxZy0?si=CmsHP5A8PCL-DXs5
+https://youtu.be/mVQiNpqXov8?si=YjzSHy59ezjQRoiT
+https://youtu.be/0Gr1XSyxZy0
+https://youtu.be/ZPtpzuRajzM?si=DEcHrfKDpSjryXTq
+https://youtu.be/u044iM9xsWU?si=otILoo1QT-Ue5ANp
+https://youtu.be/N5wpD9Ov_To?si=CWfeSNgjD_TL60JA
+Min/Max/Clamp: https://youtu.be/U9VF-4euyRo?si=3FnN_gX4VnVKmdwE
+Rem vs em: https://youtu.be/ZjiJIIL60GI?si=n3xLsHrlzDnAEjx2
+
