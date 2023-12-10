@@ -1,24 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import { ThemeProvider } from "styled-components";
+import viaTheme from "es-components-via-theme";
+import BackButton from './components/BackButton';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider theme={viaTheme}>
+        <header className="App-header">
+          <BackButton></BackButton>
+        </header>
+        <body>
+          <div className='task-2'>
+          <div></div>
+          <div>Jose</div>
+          <div>Jesus</div>
+          <div>Maria</div>
+          </div>
+        </body>
+    </ThemeProvider>
   );
 }
 
