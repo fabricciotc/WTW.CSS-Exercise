@@ -1,0 +1,18 @@
+[
+    {
+        "planName":"MedMutual HMO 8000 Silver",
+        "premium": 985.00,
+        "logo":"https://atqaeastsqldiags.blob.core.windows.net/images/403/3/MM_Logo_H(RGB_PMS7716_BLACK)+(45+px+h).8129a75281114253a37647015dd70811.png"
+    },
+    {
+        "planName":"MedMutual HMO $0 Deductible Silver - Northern Ohio",
+        "premium": 1446.00,
+        "logo":"https://atqaeastsqldiags.blob.core.windows.net/images/403/3/MM_Logo_H(RGB_PMS7716_BLACK)+(45+px+h).8129a75281114253a37647015dd70811.png"
+    },
+    {
+        "planName":"Arizona Bluecare 45",
+        "premium": 455.00,
+        "logo":"https://atqaeastsqldiags.blob.core.windows.net/images/403/3/MM_Logo_H(RGB_PMS7716_BLACK)+(45+px+h).8129a75281114253a37647015dd70811.png"
+    }
+    
+]
