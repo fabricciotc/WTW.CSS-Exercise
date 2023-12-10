@@ -1,7 +1,7 @@
 # CSS Grid Mastery Exercise
 
 ## Overview
-This repository is dedicated to enhancing the CSS Grid expertise of IFP Application Engineers. It focuses on practical exercises and study resources to develop advanced CSS Grid layouts, emphasizing responsive design and optimized use of CSS units.
+This repository is dedicated to enhancing my CSS Grid expertise. It focuses on practical exercises and study resources to develop advanced CSS Grid layouts, emphasizing responsive design and optimized use of CSS units.
 
 ## Objectives
 - Master CSS Grid for diverse use cases.
