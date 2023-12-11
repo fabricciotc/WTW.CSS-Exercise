@@ -7,40 +7,38 @@ import plans from './plan-data.json';
 
 const PlanHeaderNav = styled.section`
   display: grid;
-  height: auto;
 
   grid-template-columns: 1fr 1fr;
   align-items: center;
-  grid-template-areas: 
-    "plan1 plan2";
+  direction: rtl;
 
   /* Targeting the PlanHeader components */
   > section:nth-child(1) {
-    grid-area: plan1;
-    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+    visibility: visible;
   }
   > section:nth-child(2) {
-    grid-area: plan2;
+    visibility: visible;
   }
   
-  > section:nth-child(3) {
+  > section:nth-child(n+3) {
     visibility: collapse;
   }
 
     @media (min-width: ${props => props.theme.screenSize.tablet}) {
-      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: repeat(3, 1fr);
 
-      grid-template-areas: 
-      ". plan1 plan2 plan3";
-
-      > section:nth-child(1) {
-        border-left: 1px solid gray;
-      }
-      > section:nth-child(2) {
-        border-right: 1px solid gray;
-      }
       > section:nth-child(3) {
-        grid-area: plan3;
+        border-right: 1px solid gray;
+        visibility: visible;
+      }
+    }
+
+    @media (min-width: ${props => props.theme.screenSize.widescreen}) {
+      grid-template-columns: repeat(4, 1fr);
+
+      > section:nth-child(4) {
+        border-right: 1px solid gray;
         visibility: visible;
       }
     }

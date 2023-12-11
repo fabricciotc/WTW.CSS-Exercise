@@ -13,6 +13,10 @@
         "planName":"Arizona Bluecare 45",
         "premium": 455.00,
         "logo":"https://atqaeastsqldiags.blob.core.windows.net/images/403/3/MM_Logo_H(RGB_PMS7716_BLACK)+(45+px+h).8129a75281114253a37647015dd70811.png"
-    }
-    
+    },
+    {
+        "planName": "The Absolutely, Positively, Undoubtedly Most Comprehensive, All-Inclusive, Super-Duper, Platinum-Plus, Ultimate Health Plan Ever Conceived by Humankind",
+        "premium": 999.99,
+        "logo":"https://atqaeastsqldiags.blob.core.windows.net/images/403/3/MM_Logo_H(RGB_PMS7716_BLACK)+(45+px+h).8129a75281114253a37647015dd70811.png"
+    }    
 ]

@@ -9,18 +9,22 @@ const PlanHeaderContainer = styled.section`
     "Premium"
     "PlanName"
     "Button";
-    align-items: center;
+    direction: ltr;
     height: 100%;
     padding: 10px;
     grid-area: "plan";
     grid-gap: 5px;
+    grid-template-rows: auto 1fr 1fr 1fr;
+    text-align: center;
 
     > img {
         grid-area: Logo;
+        margin: auto;
     }
 
     > b {
         grid-area: Premium;
+        margin: auto 0;
     }
 
     > a {
@@ -29,12 +33,21 @@ const PlanHeaderContainer = styled.section`
 
     > button {
         grid-area: Button;
+        height: fit-content;
     }
 
     @media (min-width: ${props => props.theme.screenSize.tablet}) {
         grid-template-areas: 
         "Logo Premium"
         "PlanName Button";
+
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto 1fr;
+        text-align: left;
+
+        > img {
+        margin: auto 0;
+        }
     }
 
 `;
@@ -51,7 +64,7 @@ const PlanHeader = ({
                 <b style={{fontSize:'1.3rem'}}>
                     ${Premium}/month
                 </b>
-                <LinkButton styleType='primary' style={{textAlign:'left'}} as="a">
+                <LinkButton styleType='primary' as="a">
                     {PlanName}
                 </LinkButton>
                 <Button styleType='primary' style={{ whiteSpace: 'pre-wrap'}}>
