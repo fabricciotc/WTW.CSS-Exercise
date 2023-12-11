@@ -20,6 +20,7 @@ const PlanHeaderContainer = styled.section`
     > img {
         grid-area: Logo;
         margin: auto;
+        width: 100%;
     }
 
     > b {
@@ -46,7 +47,9 @@ const PlanHeaderContainer = styled.section`
         text-align: left;
 
         > img {
-        margin: auto 0;
+            margin: auto 0;
+            width: 80%;
+
         }
     }
 
@@ -60,7 +63,7 @@ const PlanHeader = ({
 
     return(
         <PlanHeaderContainer>
-                <img width={100} src={logoUrl} alt='plan'/>
+                <img src={logoUrl} alt='plan'/>
                 <b style={{fontSize:'1.3rem'}}>
                     ${Premium}/month
                 </b>
